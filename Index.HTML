@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Product HTTP Microservice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Top Product HTTP Microservice README</h1>
+    <p>This repository contains the codebase for the Top Product HTTP Microservice, which is a component of the Top Product application. This microservice is responsible for handling HTTP requests related to managing and retrieving top products.</p>
+    
+    <h2>Features</h2>
+    <ul>
+        <li><strong>Add Product:</strong> Add a new product to the system.</li>
+        <li><strong>Get Top Products:</strong> Retrieve a list of top products based on certain criteria.</li>
+        <li><strong>Update Product:</strong> Update existing product information.</li>
+        <li><strong>Delete Product:</strong> Remove a product from the system.</li>
+    </ul>
 
+    <h2>Setup</h2>
+    <ol>
+        <li><strong>Clone the Repository:</strong><br><code>git clone https://github.com/your-username/top-product-http-microservice.git</code></li>
+        <li><strong>Install Dependencies:</strong><br><code>cd top-product-http-microservice<br>npm install</code></li>
+        <li><strong>Environment Configuration:</strong><br>Create a <code>.env</code> file in the root directory and configure environment variables such as database connection string, port, etc.</li>
+        <li><strong>Start the Server:</strong><br><code>npm start</code></li>
+    </ol>
+
+    <h2>API Endpoints</h2>
+    <pre>
+GET /products                 Retrieve a list of all products.
+POST /products                Add a new product.
+GET /products/:id             Retrieve details of a specific product.
+PUT /products/:id             Update information for a specific product.
+DELETE /products/:id          Delete a product.
+    </pre>
+
+    <h2>Contributing</h2>
+    <p>Contributions are welcome! If you find any issues or want to add new features, please follow the guidelines in the <code>CONTRIBUTING.md</code> file.</p>
+
+    <h2>License</h2>
+    <p>This project is licensed under the MIT License - see the <code>LICENSE</code> file for details.</p>
+</body>
+</html>
